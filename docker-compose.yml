@@ -1,0 +1,10 @@
+services:
+  hei1:
+    image: lillebomartin/hei-1:v1.0.0
+    container_name: hei-1
+    restart: always
+
+  hei2:
+    image: lillebomartin/hei-2:v1.0.0
+    container_name: hei-2
+    restart: always
